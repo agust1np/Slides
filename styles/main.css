@@ -1,0 +1,32 @@
+/* Custom styles for the presentation */
+.slidev-layout {
+  @apply px-14 py-10;
+}
+
+.grid-feature {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.feature-card {
+  @apply bg-white/80 p-4 rounded-lg shadow-md backdrop-blur-sm;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-500;
+}
+
+.custom-block {
+  @apply p-4 rounded-lg border-l-4;
+}
+
+.info-block {
+  @apply custom-block border-blue-500 bg-blue-50;
+}
+
+.warning-block {
+  @apply custom-block border-yellow-500 bg-yellow-50;
+}
+
+.success-block {
+  @apply custom-block border-green-500 bg-green-50;
+}

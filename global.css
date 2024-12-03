@@ -1,0 +1,42 @@
+/* Global styles */
+:root {
+  --slidev-theme-primary: #2B90B6;
+}
+
+.slidev-layout {
+  padding: 2rem 4rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, var(--slidev-theme-primary), #4EC5D4);
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
