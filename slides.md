@@ -1,15 +1,17 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80
-class: 'text-center'
+background: https://source.unsplash.com/collection/94734566/1920x1080
+class: text-center
 highlighter: shiki
 lineNumbers: false
+info: |
+  ## Implementación de Chatbots en la Industria Hotelera
 drawings:
   persist: false
-transition: slide-left
 title: Implementación de Chatbots en la Industria Hotelera
 mdc: true
 css: unocss
+base: /Slides/
 icons: ['material-symbols', 'carbon', 'mdi']
 ---
 
@@ -388,4 +390,3 @@ layout: default
   - Definir requerimientos específicos del hotel.
   - Seleccionar la solución más adecuada.
   - Establecer un cronograma de implementación.
-
