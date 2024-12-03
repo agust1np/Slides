@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: "/photo-marriott-hotel-santa-cruz-de-la-sierra-1.jpeg"
 class: text-center
 highlighter: shiki
 lineNumbers: false
